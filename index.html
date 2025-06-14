@@ -1,0 +1,48 @@
+<!DOCTYPE html>    
+<html lang="en">    
+<head>    
+  <meta charset="UTF-8" />    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />    
+  <title>Editz Expansion</title>    
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">    
+  <link rel="stylesheet" href="style.css" />    
+</head>    
+<body>    
+
+  <div id="captcha-overlay">
+  <div class="captcha-box">
+    <p>Click to verify you're human</p>
+    <button id="verify-btn">I’m not a robot</button>
+  </div>
+</div>
+    
+  <header>    
+    <h1>Editz Expansion</h1>    
+    <nav>    
+      <a href="index.html">Home</a>    
+      <a href="pack.html">Free Pack</a>    
+      <a href="youtube.html" target="_blank">YouTube</a>    
+    </nav>    
+  </header>    
+    
+  <main>    
+    <section class="hero">    
+      <h2>Welcome to the Expansion</h2>    
+      <p>The ultimate hub for anime edits, free resources, and community drops. No algorithm needed. Just pure creation.</p>    
+      <a href="pack.html" class="cta-btn">🎁 Get the Free Editing Pack</a>    
+    </section>    
+    
+    
+  </main>    
+    
+  <footer>    
+    <p>&copy; 2025 Editz Expansion. Built by your editor hehe 💿</p>    
+  </footer>    
+    
+  <script>
+  document.getElementById('verify-btn').addEventListener('click', function() {
+    document.getElementById('captcha-overlay').style.display = 'none';
+  });
+</script>
+</body>    
+</html>
